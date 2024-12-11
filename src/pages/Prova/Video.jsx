@@ -34,7 +34,7 @@ const Video = () => {
       <video
         ref={videoRef}
         width="100%"
-        src="src/assets/videoluluca.mp4"
+        src="assets/videoluluca.mp4"
         controls={false}
         style={{
           borderRadius: 8,

@@ -7,7 +7,7 @@ function App() {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        backgroundImage: `url(src/assets/lulucabg.jpg)`,
+        backgroundImage: `url(assets/lulucabg.jpg)`,
         backgroundSize: "contain",
         backgroundPosition: "center",
       }}

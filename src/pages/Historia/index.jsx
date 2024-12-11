@@ -377,7 +377,7 @@ function Historia() {
         >
           <Box
             component="img"
-            src={`/src/assets/comp_${activeStep}.jpg`}
+            src={`/assets/comp_${activeStep}.jpg`}
             width={300}
             height={500}
             borderRadius={5}
@@ -464,7 +464,7 @@ function Historia() {
                           <Box
                             my={1}
                             component="img"
-                            src={`/src/assets/${step?.images[idx]}`}
+                            src={`/assets/${step?.images[idx]}`}
                             width={300}
                             borderRadius={5}
                           />
