@@ -34,7 +34,8 @@ const Video = () => {
       <video
         ref={videoRef}
         width="100%"
-        src="assets/videoluluca.mp4"
+        // src="assets/videoluluca.mp4"
+        // type="video/mp4"
         controls={false}
         style={{
           borderRadius: 8,
@@ -42,7 +43,14 @@ const Video = () => {
           willChange: "transform",
           transform: "translateZ(0)",
         }}
-      />
+      >
+        <source
+          src="https://www.dropbox.com/scl/fi/zvuro6e0b62ke2dptm8es/videoluluca.mp4?rlkey=vm05oaq46a64cy60akffntvgh&st=f6n53aih&raw=1
+"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
     </Box>
   );
 };
